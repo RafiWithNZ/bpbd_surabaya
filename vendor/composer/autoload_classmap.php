@@ -8,7 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+<<<<<<< HEAD
     'App\\Http\\Controllers\\AdminController' => $baseDir . '/app/Http/Controllers/AdminController.php',
+=======
+>>>>>>> origin/coba
     'App\\Http\\Controllers\\Auth\\AuthenticatedSessionController' => $baseDir . '/app/Http/Controllers/Auth/AuthenticatedSessionController.php',
     'App\\Http\\Controllers\\Auth\\ConfirmablePasswordController' => $baseDir . '/app/Http/Controllers/Auth/ConfirmablePasswordController.php',
     'App\\Http\\Controllers\\Auth\\EmailVerificationNotificationController' => $baseDir . '/app/Http/Controllers/Auth/EmailVerificationNotificationController.php',
@@ -19,10 +22,15 @@ return array(
     'App\\Http\\Controllers\\Auth\\RegisteredUserController' => $baseDir . '/app/Http/Controllers/Auth/RegisteredUserController.php',
     'App\\Http\\Controllers\\Auth\\VerifyEmailController' => $baseDir . '/app/Http/Controllers/Auth/VerifyEmailController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+<<<<<<< HEAD
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Controllers\\LoginController' => $baseDir . '/app/Http/Controllers/LoginController.php',
     'App\\Http\\Controllers\\ProfileController' => $baseDir . '/app/Http/Controllers/ProfileController.php',
     'App\\Http\\Controllers\\RegisterController' => $baseDir . '/app/Http/Controllers/RegisterController.php',
+=======
+    'App\\Http\\Controllers\\PosController' => $baseDir . '/app/Http/Controllers/PosController.php',
+    'App\\Http\\Controllers\\ProfileController' => $baseDir . '/app/Http/Controllers/ProfileController.php',
+>>>>>>> origin/coba
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
@@ -36,6 +44,10 @@ return array(
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Http\\Requests\\Auth\\LoginRequest' => $baseDir . '/app/Http/Requests/Auth/LoginRequest.php',
     'App\\Http\\Requests\\ProfileUpdateRequest' => $baseDir . '/app/Http/Requests/ProfileUpdateRequest.php',
+<<<<<<< HEAD
+=======
+    'App\\Models\\Pospantau' => $baseDir . '/app/Models/Pospantau.php',
+>>>>>>> origin/coba
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
@@ -152,8 +164,15 @@ return array(
     'Cron\\HoursField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
     'Cron\\MinutesField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+<<<<<<< HEAD
     'Database\\Factories\\UserFactory' => $baseDir . '/database/factories/UserFactory.php',
     'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
+=======
+    'Database\\Factories\\PospantauFactory' => $baseDir . '/database/factories/PospantauFactory.php',
+    'Database\\Factories\\UserFactory' => $baseDir . '/database/factories/UserFactory.php',
+    'Database\\Seeders\\DatabaseSeeder' => $baseDir . '/database/seeders/DatabaseSeeder.php',
+    'Database\\Seeders\\PospantauSeeder' => $baseDir . '/database/seeders/PospantauSeeder.php',
+>>>>>>> origin/coba
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
     'DeepCopy\\Exception\\PropertyException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -2301,12 +2320,15 @@ return array(
     'League\\CommonMark\\Event\\DocumentPreRenderEvent' => $vendorDir . '/league/commonmark/src/Event/DocumentPreRenderEvent.php',
     'League\\CommonMark\\Event\\DocumentRenderedEvent' => $vendorDir . '/league/commonmark/src/Event/DocumentRenderedEvent.php',
     'League\\CommonMark\\Event\\ListenerData' => $vendorDir . '/league/commonmark/src/Event/ListenerData.php',
+<<<<<<< HEAD
     'League\\CommonMark\\Exception\\AlreadyInitializedException' => $vendorDir . '/league/commonmark/src/Exception/AlreadyInitializedException.php',
     'League\\CommonMark\\Exception\\CommonMarkException' => $vendorDir . '/league/commonmark/src/Exception/CommonMarkException.php',
     'League\\CommonMark\\Exception\\IOException' => $vendorDir . '/league/commonmark/src/Exception/IOException.php',
     'League\\CommonMark\\Exception\\InvalidArgumentException' => $vendorDir . '/league/commonmark/src/Exception/InvalidArgumentException.php',
     'League\\CommonMark\\Exception\\LogicException' => $vendorDir . '/league/commonmark/src/Exception/LogicException.php',
     'League\\CommonMark\\Exception\\MissingDependencyException' => $vendorDir . '/league/commonmark/src/Exception/MissingDependencyException.php',
+=======
+>>>>>>> origin/coba
     'League\\CommonMark\\Exception\\UnexpectedEncodingException' => $vendorDir . '/league/commonmark/src/Exception/UnexpectedEncodingException.php',
     'League\\CommonMark\\Extension\\Attributes\\AttributesExtension' => $vendorDir . '/league/commonmark/src/Extension/Attributes/AttributesExtension.php',
     'League\\CommonMark\\Extension\\Attributes\\Event\\AttributesListener' => $vendorDir . '/league/commonmark/src/Extension/Attributes/Event/AttributesListener.php',
@@ -2539,7 +2561,10 @@ return array(
     'League\\CommonMark\\Parser\\MarkdownParserInterface' => $vendorDir . '/league/commonmark/src/Parser/MarkdownParserInterface.php',
     'League\\CommonMark\\Parser\\MarkdownParserState' => $vendorDir . '/league/commonmark/src/Parser/MarkdownParserState.php',
     'League\\CommonMark\\Parser\\MarkdownParserStateInterface' => $vendorDir . '/league/commonmark/src/Parser/MarkdownParserStateInterface.php',
+<<<<<<< HEAD
     'League\\CommonMark\\Parser\\ParserLogicException' => $vendorDir . '/league/commonmark/src/Parser/ParserLogicException.php',
+=======
+>>>>>>> origin/coba
     'League\\CommonMark\\Reference\\Reference' => $vendorDir . '/league/commonmark/src/Reference/Reference.php',
     'League\\CommonMark\\Reference\\ReferenceInterface' => $vendorDir . '/league/commonmark/src/Reference/ReferenceInterface.php',
     'League\\CommonMark\\Reference\\ReferenceMap' => $vendorDir . '/league/commonmark/src/Reference/ReferenceMap.php',
@@ -2555,7 +2580,10 @@ return array(
     'League\\CommonMark\\Renderer\\Inline\\NewlineRenderer' => $vendorDir . '/league/commonmark/src/Renderer/Inline/NewlineRenderer.php',
     'League\\CommonMark\\Renderer\\Inline\\TextRenderer' => $vendorDir . '/league/commonmark/src/Renderer/Inline/TextRenderer.php',
     'League\\CommonMark\\Renderer\\MarkdownRendererInterface' => $vendorDir . '/league/commonmark/src/Renderer/MarkdownRendererInterface.php',
+<<<<<<< HEAD
     'League\\CommonMark\\Renderer\\NoMatchingRendererException' => $vendorDir . '/league/commonmark/src/Renderer/NoMatchingRendererException.php',
+=======
+>>>>>>> origin/coba
     'League\\CommonMark\\Renderer\\NodeRendererInterface' => $vendorDir . '/league/commonmark/src/Renderer/NodeRendererInterface.php',
     'League\\CommonMark\\Util\\ArrayCollection' => $vendorDir . '/league/commonmark/src/Util/ArrayCollection.php',
     'League\\CommonMark\\Util\\Html5EntityDecoder' => $vendorDir . '/league/commonmark/src/Util/Html5EntityDecoder.php',

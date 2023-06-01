@@ -49,11 +49,20 @@ final class HeadingPermalinkRenderer implements NodeRendererInterface, XmlNodeRe
 
         $slug = $node->getSlug();
 
+<<<<<<< HEAD
+=======
+        $idPrefix = (string) $this->config->get('heading_permalink/id_prefix');
+        if ($idPrefix !== '') {
+            $idPrefix .= '-';
+        }
+
+>>>>>>> origin/coba
         $fragmentPrefix = (string) $this->config->get('heading_permalink/fragment_prefix');
         if ($fragmentPrefix !== '') {
             $fragmentPrefix .= '-';
         }
 
+<<<<<<< HEAD
         $attrs    = $node->data->getData('attributes');
         $appendId = ! $this->config->get('heading_permalink/apply_id_to_heading');
 
@@ -67,6 +76,10 @@ final class HeadingPermalinkRenderer implements NodeRendererInterface, XmlNodeRe
             $attrs->set('id', $idPrefix . $slug);
         }
 
+=======
+        $attrs = $node->data->getData('attributes');
+        $attrs->set('id', $idPrefix . $slug);
+>>>>>>> origin/coba
         $attrs->set('href', '#' . $fragmentPrefix . $slug);
         $attrs->append('class', $this->config->get('heading_permalink/html_class'));
 

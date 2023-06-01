@@ -140,6 +140,7 @@ final class TestResult
     }
 
     /**
+<<<<<<< HEAD
      * Creates a new test from the given Pest Parallel Test Case.
      */
     public static function fromPestParallelTestCase(Test $test, string $type, Throwable $throwable = null): self
@@ -172,6 +173,8 @@ final class TestResult
     }
 
     /**
+=======
+>>>>>>> origin/coba
      * Creates a new test from the given test case.
      */
     public static function fromBeforeFirstTestMethodErrored(BeforeFirstTestMethodErrored $event): self

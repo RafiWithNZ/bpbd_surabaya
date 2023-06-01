@@ -6,6 +6,7 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com/) princi
 
 ## [Unreleased][unreleased]
 
+<<<<<<< HEAD
 ## [2.4.0] - 2023-03-24
 
 ### Added
@@ -42,6 +43,8 @@ Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com/) princi
 - Fixed inaccurate `@throws` docblocks throughout the codebase, including `ConverterInterface`, `MarkdownConverter`, and `MarkdownConverterInterface`.
     - These previously suggested that only `\RuntimeException`s were thrown, which was inaccurate as `\LogicException`s were also possible.
 
+=======
+>>>>>>> origin/coba
 ## [2.3.9] - 2023-02-15
 
 ### Fixed
@@ -554,8 +557,12 @@ No changes were introduced since the previous release.
     - Alternative 1: Use `CommonMarkConverter` or `GithubFlavoredMarkdownConverter` if you don't need to customize the environment
     - Alternative 2: Instantiate a new `Environment` and add the necessary extensions yourself
 
+<<<<<<< HEAD
 [unreleased]: https://github.com/thephpleague/commonmark/compare/2.4.0...main
 [2.4.0]: https://github.com/thephpleague/commonmark/compare/2.3.9...2.4.0
+=======
+[unreleased]: https://github.com/thephpleague/commonmark/compare/2.3.9...main
+>>>>>>> origin/coba
 [2.3.9]: https://github.com/thephpleague/commonmark/compare/2.3.8...2.3.9
 [2.3.8]: https://github.com/thephpleague/commonmark/compare/2.3.7...2.3.8
 [2.3.7]: https://github.com/thephpleague/commonmark/compare/2.3.6...2.3.7

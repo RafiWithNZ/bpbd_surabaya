@@ -1287,6 +1287,7 @@
         },
         {
             "name": "laravel/breeze",
+<<<<<<< HEAD
             "version": "v1.20.0",
             "version_normalized": "1.20.0.0",
             "source": {
@@ -1298,6 +1299,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/breeze/zipball/3d8955fc1b68d5cee7ab7ee8a6ca9e302fd20c30",
                 "reference": "3d8955fc1b68d5cee7ab7ee8a6ca9e302fd20c30",
+=======
+            "version": "v1.21.0",
+            "version_normalized": "1.21.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/breeze.git",
+                "reference": "a7e7e2acfb2fd332183aae41c445be7a2329e93e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/breeze/zipball/a7e7e2acfb2fd332183aae41c445be7a2329e93e",
+                "reference": "a7e7e2acfb2fd332183aae41c445be7a2329e93e",
+>>>>>>> origin/coba
                 "shasum": ""
             },
             "require": {
@@ -1311,7 +1325,11 @@
                 "orchestra/testbench": "^8.0",
                 "phpstan/phpstan": "^1.10"
             },
+<<<<<<< HEAD
             "time": "2023-03-20T11:31:54+00:00",
+=======
+            "time": "2023-05-04T15:02:53+00:00",
+>>>>>>> origin/coba
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1894,6 +1912,7 @@
         },
         {
             "name": "league/commonmark",
+<<<<<<< HEAD
             "version": "2.4.0",
             "version_normalized": "2.4.0.0",
             "source": {
@@ -1905,6 +1924,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/d44a24690f16b8c1808bf13b1bd54ae4c63ea048",
                 "reference": "d44a24690f16b8c1808bf13b1bd54ae4c63ea048",
+=======
+            "version": "2.3.9",
+            "version_normalized": "2.3.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c1e114f74e518daca2729ea8c4bf1167038fa4b5",
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5",
+>>>>>>> origin/coba
                 "shasum": ""
             },
             "require": {
@@ -1937,11 +1969,19 @@
             "suggest": {
                 "symfony/yaml": "v2.3+ required if using the Front Matter extension"
             },
+<<<<<<< HEAD
             "time": "2023-03-24T15:16:10+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-main": "2.5-dev"
+=======
+            "time": "2023-02-15T14:07:24+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.4-dev"
+>>>>>>> origin/coba
                 }
             },
             "installation-source": "dist",
@@ -2801,6 +2841,7 @@
         },
         {
             "name": "nunomaduro/collision",
+<<<<<<< HEAD
             "version": "v7.3.3",
             "version_normalized": "7.3.3.0",
             "source": {
@@ -2812,6 +2853,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/collision/zipball/c680af93e414110b36056029f63120e6bc78f6e3",
                 "reference": "c680af93e414110b36056029f63120e6bc78f6e3",
+=======
+            "version": "v7.3.2",
+            "version_normalized": "7.3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nunomaduro/collision.git",
+                "reference": "9e111c8d8e88862d334879853dc849542e4b015a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/9e111c8d8e88862d334879853dc849542e4b015a",
+                "reference": "9e111c8d8e88862d334879853dc849542e4b015a",
+>>>>>>> origin/coba
                 "shasum": ""
             },
             "require": {
@@ -2837,7 +2891,11 @@
                 "sebastian/environment": "^6.0.0",
                 "spatie/laravel-ignition": "^2.0.0"
             },
+<<<<<<< HEAD
             "time": "2023-03-23T21:41:35+00:00",
+=======
+            "time": "2023-03-21T21:02:58+00:00",
+>>>>>>> origin/coba
             "type": "library",
             "extra": {
                 "laravel": {

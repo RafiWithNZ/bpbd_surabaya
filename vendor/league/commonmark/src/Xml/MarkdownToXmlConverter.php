@@ -15,7 +15,10 @@ namespace League\CommonMark\Xml;
 
 use League\CommonMark\ConverterInterface;
 use League\CommonMark\Environment\EnvironmentInterface;
+<<<<<<< HEAD
 use League\CommonMark\Exception\CommonMarkException;
+=======
+>>>>>>> origin/coba
 use League\CommonMark\Output\RenderedContentInterface;
 use League\CommonMark\Parser\MarkdownParser;
 use League\CommonMark\Parser\MarkdownParserInterface;
@@ -38,7 +41,11 @@ final class MarkdownToXmlConverter implements ConverterInterface
     /**
      * Converts Markdown to XML
      *
+<<<<<<< HEAD
      * @throws CommonMarkException
+=======
+     * @throws \RuntimeException
+>>>>>>> origin/coba
      */
     public function convert(string $input): RenderedContentInterface
     {
@@ -50,7 +57,11 @@ final class MarkdownToXmlConverter implements ConverterInterface
      *
      * @see MarkdownToXmlConverter::convert()
      *
+<<<<<<< HEAD
      * @throws CommonMarkException
+=======
+     * @throws \RuntimeException
+>>>>>>> origin/coba
      */
     public function __invoke(string $input): RenderedContentInterface
     {

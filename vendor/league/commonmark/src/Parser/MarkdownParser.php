@@ -22,7 +22,10 @@ namespace League\CommonMark\Parser;
 use League\CommonMark\Environment\EnvironmentInterface;
 use League\CommonMark\Event\DocumentParsedEvent;
 use League\CommonMark\Event\DocumentPreParsedEvent;
+<<<<<<< HEAD
 use League\CommonMark\Exception\CommonMarkException;
+=======
+>>>>>>> origin/coba
 use League\CommonMark\Input\MarkdownInput;
 use League\CommonMark\Node\Block\Document;
 use League\CommonMark\Node\Block\Paragraph;
@@ -82,7 +85,11 @@ final class MarkdownParser implements MarkdownParserInterface
     }
 
     /**
+<<<<<<< HEAD
      * @throws CommonMarkException
+=======
+     * @throws \RuntimeException
+>>>>>>> origin/coba
      */
     public function parse(string $input): Document
     {
@@ -294,14 +301,21 @@ final class MarkdownParser implements MarkdownParserInterface
         $this->activeBlockParsers[] = $blockParser;
     }
 
+<<<<<<< HEAD
     /**
      * @throws ParserLogicException
      */
+=======
+>>>>>>> origin/coba
     private function deactivateBlockParser(): BlockContinueParserInterface
     {
         $popped = \array_pop($this->activeBlockParsers);
         if ($popped === null) {
+<<<<<<< HEAD
             throw new ParserLogicException('The last block parser should not be deactivated');
+=======
+            throw new \RuntimeException('The last block parser should not be deactivated');
+>>>>>>> origin/coba
         }
 
         return $popped;
@@ -331,14 +345,21 @@ final class MarkdownParser implements MarkdownParserInterface
         }
     }
 
+<<<<<<< HEAD
     /**
      * @throws ParserLogicException
      */
+=======
+>>>>>>> origin/coba
     public function getActiveBlockParser(): BlockContinueParserInterface
     {
         $active = \end($this->activeBlockParsers);
         if ($active === false) {
+<<<<<<< HEAD
             throw new ParserLogicException('No active block parsers are available');
+=======
+            throw new \RuntimeException('No active block parsers are available');
+>>>>>>> origin/coba
         }
 
         return $active;

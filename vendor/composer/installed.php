@@ -3,7 +3,11 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
+<<<<<<< HEAD
         'reference' => 'f61cac3548481b593799c9216de0a3aaf1a3f5a8',
+=======
+        'reference' => '978a396c901df20dac941aa5338eb3d36f7ef346',
+>>>>>>> origin/coba
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -371,9 +375,15 @@
             ),
         ),
         'laravel/breeze' => array(
+<<<<<<< HEAD
             'pretty_version' => 'v1.20.0',
             'version' => '1.20.0.0',
             'reference' => '3d8955fc1b68d5cee7ab7ee8a6ca9e302fd20c30',
+=======
+            'pretty_version' => 'v1.21.0',
+            'version' => '1.21.0.0',
+            'reference' => 'a7e7e2acfb2fd332183aae41c445be7a2329e93e',
+>>>>>>> origin/coba
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/breeze',
             'aliases' => array(),
@@ -391,7 +401,11 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
+<<<<<<< HEAD
             'reference' => 'f61cac3548481b593799c9216de0a3aaf1a3f5a8',
+=======
+            'reference' => '978a396c901df20dac941aa5338eb3d36f7ef346',
+>>>>>>> origin/coba
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -443,9 +457,15 @@
             'dev_requirement' => false,
         ),
         'league/commonmark' => array(
+<<<<<<< HEAD
             'pretty_version' => '2.4.0',
             'version' => '2.4.0.0',
             'reference' => 'd44a24690f16b8c1808bf13b1bd54ae4c63ea048',
+=======
+            'pretty_version' => '2.3.9',
+            'version' => '2.3.9.0',
+            'reference' => 'c1e114f74e518daca2729ea8c4bf1167038fa4b5',
+>>>>>>> origin/coba
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/commonmark',
             'aliases' => array(),
@@ -548,9 +568,15 @@
             'dev_requirement' => false,
         ),
         'nunomaduro/collision' => array(
+<<<<<<< HEAD
             'pretty_version' => 'v7.3.3',
             'version' => '7.3.3.0',
             'reference' => 'c680af93e414110b36056029f63120e6bc78f6e3',
+=======
+            'pretty_version' => 'v7.3.2',
+            'version' => '7.3.2.0',
+            'reference' => '9e111c8d8e88862d334879853dc849542e4b015a',
+>>>>>>> origin/coba
             'type' => 'library',
             'install_path' => __DIR__ . '/../nunomaduro/collision',
             'aliases' => array(),

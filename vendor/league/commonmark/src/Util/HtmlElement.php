@@ -77,7 +77,11 @@ final class HtmlElement implements \Stringable
     /**
      * @param string|string[]|bool $value
      */
+<<<<<<< HEAD
     public function setAttribute(string $key, $value = true): self
+=======
+    public function setAttribute(string $key, $value): self
+>>>>>>> origin/coba
     {
         if (\is_array($value)) {
             $this->attributes[$key] = \implode(' ', \array_unique($value));

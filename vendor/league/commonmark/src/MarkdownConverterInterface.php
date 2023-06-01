@@ -13,7 +13,10 @@ declare(strict_types=1);
 
 namespace League\CommonMark;
 
+<<<<<<< HEAD
 use League\CommonMark\Exception\CommonMarkException;
+=======
+>>>>>>> origin/coba
 use League\CommonMark\Output\RenderedContentInterface;
 
 /**
@@ -28,7 +31,11 @@ interface MarkdownConverterInterface
      *
      * @deprecated since 2.2; use {@link ConverterInterface::convert()} instead
      *
+<<<<<<< HEAD
      * @throws CommonMarkException
+=======
+     * @throws \RuntimeException
+>>>>>>> origin/coba
      */
     public function convertToHtml(string $markdown): RenderedContentInterface;
 }

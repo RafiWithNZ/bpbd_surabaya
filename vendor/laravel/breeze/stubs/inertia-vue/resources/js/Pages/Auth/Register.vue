@@ -11,7 +11,10 @@ const form = useForm({
     email: '',
     password: '',
     password_confirmation: '',
+<<<<<<< HEAD
     terms: false,
+=======
+>>>>>>> origin/coba
 });
 
 const submit = () => {

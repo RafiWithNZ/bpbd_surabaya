@@ -22,4 +22,8 @@ if (PHP_VERSION_ID < 50600) {
 
 require_once __DIR__ . '/composer/autoload_real.php';
 
+<<<<<<< HEAD
 return ComposerAutoloaderInit7edd4b36e723be20080f5311171dbceb::getLoader();
+=======
+return ComposerAutoloaderInit6b3c649d2bbdb7aac30102de9c95263d::getLoader();
+>>>>>>> origin/coba
